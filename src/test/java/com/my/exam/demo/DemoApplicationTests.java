@@ -23,7 +23,6 @@ class DemoApplicationTests {
         }
 
     }
-
     @Test
     void myArrayTest() {
         int[] arr1 = new int[5];
