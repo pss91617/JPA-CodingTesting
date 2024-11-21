@@ -7,22 +7,8 @@ import java.util.Arrays;
 import java.util.Collections;
 
 @SpringBootTest
-class DemoApplicationTests {
+class ArrayTest {
 
-    // 값 비교 test StringBuffer = 멀티스레드 환경
-    @Test
-    void contextLoads() {
-        StringBuffer a = new StringBuffer();
-        StringBuffer b = new StringBuffer();
-        a.append("sda");
-        b.append("sda");
-        if (a.hashCode() == b.hashCode()) {
-            System.out.println("ok");
-        } else {
-            System.out.println("not ok");
-        }
-
-    }
     @Test
     void myArrayTest() {
         int[] arr1 = new int[5];

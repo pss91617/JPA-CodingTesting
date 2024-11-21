@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RequiredArgsConstructor
 @RestController
-public class controller {
+public class UsualController {
 
     @GetMapping("/DockerTest")
     public void DockerTest() {

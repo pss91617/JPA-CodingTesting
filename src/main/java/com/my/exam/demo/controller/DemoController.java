@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class demoController {
+public class DemoController {
 
     @Autowired
     //CRUD를 사용하기 위해서 interface를 지정해둔 UserRepository를 가져와줍니다.
