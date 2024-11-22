@@ -1,9 +1,12 @@
-package com.my.exam.demo;
+package com.my.exam.demo.structure;
 
+import com.my.exam.demo.dao.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.*;
+
+import static org.apache.coyote.http11.Constants.a;
 
 @SpringBootTest
 class ArrayTest {
@@ -79,8 +82,8 @@ String[] arr = {a.toString, - - }
         lList1.clear();
 
 
-        Vector<String> v1 = new Vector<>();
-        v1.add("a");
+        Vector<Object> v1 = new Vector<>();
+        v1.add(new User());
 
     }
 
